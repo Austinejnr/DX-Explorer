@@ -9,6 +9,7 @@
 body{
     /* height: 4000px; */
     font-family: 'Inter', sans-serif;
+    /* width: 100%; */
 }
 html{
     scroll-behavior: smooth;
@@ -20,22 +21,25 @@ html{
 .btn-orange{
     background: var(--main-color);
     color: var(--white-color);
-    border: 3px solid var(--main-color);
-    border-radius: 35%;
+    /* border: 3px solid var(--main-color); */
+    border-radius: 20px;
     margin-top: 25px;
     margin-bottom: 40px;
+    transition: all 0.5s ease-in;
 }
 .btn-orange:hover{
     background: var(--linear-gradient);
+    transition: all 0.5s ease;
 }
 .btn-light{
     background: var(--white-color);
     color: var(--main-color);
-    border: 3px solid var(--white-color);
-    border-radius: 35%;
+    /* border: 3px solid var(--white-color); */
+    border-radius: 20px;
     margin-top: 40px;
     margin-bottom: 15px;
     margin-left: 25px;
+    transition: all 0.5s ease-in;
 }
 .btn-light:hover{
     background: var(--gray-color);
@@ -44,15 +48,16 @@ html{
 .btn-white{
     background: var(--white-color);
     color: var(--main-color);
-    border: 3px solid var(--white-color);
-    border-radius: 35%;
+    /* border: 3px solid var(--white-color); */
+    border-radius: 20px;
     margin-top: 40px;
     margin-bottom: 15px;
     margin-right: 15px ;
+    transition: all 0.5s ease-in;
 }
 .btn-white:hover{
     background: var(--gray-color);
-    color: var(--white-color);
+    /* color: var(--white-color); */
 }
 /* header section starts here  */
 header{
@@ -224,6 +229,10 @@ header{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.second:hover{
+    background: var(--white-color);
+    color: var(--main-color);
+}
 .first{
     background: var(--main-color);
     /* height: 170px; */
@@ -241,6 +250,12 @@ header{
     color: var(--white-color);
     padding-left: 25px;
     padding-bottom: 30px;
+}
+.first:hover{
+    background: var(--gray-color);
+}
+.first p:hover{
+    color: var(--main-color);
 }
 .third{
     /* border: 3px solid tomato; */

@@ -13,3 +13,23 @@ function addandremove(){
     hamburger.classList.toggle('showburger')
     mobilelinkscontainer.classList.toggle('showmobilelinks')
 }
+
+ScrollReveal({ reset: true,
+    duration: 2000,
+  distance: "70px"
+});
+ScrollReveal().reveal('.nav-desktop', { delay: 500,
+    origin: "left"
+  });
+  ScrollReveal().reveal('.nav-mobile', { delay: 500,
+    origin: "left"
+  });
+  ScrollReveal().reveal('.desktoplinkcontainer', { delay: 500,
+    origin: "right" });
+    ScrollReveal().reveal('.nav-brand', { delay: 500,
+        origin: "right" });
+        ScrollReveal().reveal('.fourth', { delay: 500,
+            origin: "left"
+          });
+          ScrollReveal().reveal('footer', { delay: 500,
+            origin: "right" });
