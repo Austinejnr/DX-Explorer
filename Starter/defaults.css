@@ -1,0 +1,8 @@
+:root{
+    --main-color: #FF6347;
+    --gray-color:rgba(217, 217, 217,0.1);
+    --linear-gradient:linear-gradient(to right, rgba(244, 107, 69,0.25),  rgba(255, 99, 71,0.25));
+    --black-color: #000;
+    --white-color:#fff;
+    --blackborder: 3px solid var(--main-color) 
+}
