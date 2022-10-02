@@ -21,15 +21,9 @@ ScrollReveal({ reset: true,
 ScrollReveal().reveal('.nav-desktop', { delay: 500,
     origin: "left"
   });
-  ScrollReveal().reveal('.nav-mobile', { delay: 500,
+  ScrollReveal().reveal('.nav-brand', { delay: 500,
     origin: "left"
   });
   ScrollReveal().reveal('.desktoplinkcontainer', { delay: 500,
     origin: "right" });
-    ScrollReveal().reveal('.nav-brand', { delay: 500,
-        origin: "right" });
-        ScrollReveal().reveal('.fourth', { delay: 400,
-            origin: "left"
-          });
-          ScrollReveal().reveal('footer', { delay: 400,
-            origin: "right" });
+   

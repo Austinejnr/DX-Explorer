@@ -6,7 +6,3 @@
     --white-color:#fff;
     --blackborder: 3px solid var(--main-color) 
 }
-:root {
-    --animate-duration: 4s;
-    --animate-delay: 5s;
-  }

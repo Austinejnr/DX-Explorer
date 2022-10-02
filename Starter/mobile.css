@@ -18,17 +18,14 @@
     /* display: block; */
     justify-content: space-between;
     align-items: center;
+    /* padding-left: 50px; */
+    display: block;
   }
   .headerbanner p{
     line-height: 0.9;
     font-weight: normal;
   }
-  footer{
-    justify-content: center;
-    display: block;
-    align-items: center;
-    padding-left: 50px;
-  }
+ 
   .footer-icon-container{
     align-items: center;
     justify-content: space-evenly;
