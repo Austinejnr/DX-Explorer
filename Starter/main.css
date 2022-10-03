@@ -132,23 +132,24 @@ header{
 }
 .showburger .menu::before{
     transform: rotate(45deg);
-    background: var(--main-color);
+    background: var(--white-color);
 }
 .showburger .menu::after{
     transform: rotate(-45deg);
-    background: var(--main-color);
+    background: var(--white-color);
 }
 .mobilelinks-container{
     /* display: none; */
     transform: translateX(102%);
     transition: all 0.4s ease;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 10%;
     background: var(--main-color);
     position: fixed;
     top: 0;
     right: 0;
     z-index: 3;
+    margin-top: 55px;
 }
 .showmobilelinks{
     /* display: block; */
@@ -162,6 +163,7 @@ header{
     text-decoration: none;
     color: var(--white-color);
     padding: 21px 20px;
+    background: var(--main-color);
 }
 .mobilelinks-content a:hover{
     background: var(--white-color);
