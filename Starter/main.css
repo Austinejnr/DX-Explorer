@@ -311,9 +311,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 25px;
 }
 .footer-icons:hover{
-    background-color: var(--main-color);
+    color: var(--main-color);
 }
 
