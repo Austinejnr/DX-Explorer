@@ -16,7 +16,7 @@ html{
 }
 .btn{
     padding: 8px 20px;
-    
+    cursor: pointer;
 }
 .btn-orange{
     background: var(--main-color);
@@ -303,6 +303,7 @@ footer{
     height: 50px;
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .footer-icons{
     width: 40px;
